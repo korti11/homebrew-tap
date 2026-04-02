@@ -1,24 +1,24 @@
 class SatisfactoryPathfinder < Formula
   desc "Satisfactory factory planning companion CLI"
   homepage "https://github.com/korti11/satisfactory-pathfinder"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/korti11/satisfactory-pathfinder/releases/download/v#{version}/pathfinder-macos-arm64.tar.gz"
-      sha256 "bb325ad3c2b44a61dcc2f2b082d37559a3feb6a92edee857437549463b39c626"
+      sha256 "edbaf4e819ed94671c44b67cd603d3baad81d225305f07e84422aa914f86ba72"
     end
     on_intel do
       url "https://github.com/korti11/satisfactory-pathfinder/releases/download/v#{version}/pathfinder-macos-x86_64.tar.gz"
-      sha256 "c904da867b21c3bd60d4ce8e116009344f31c18d596d404639db3e73e476a296"
+      sha256 "755c3d86af687cbd5f489c37c9fbce62df07385d2912034b65292ef0137b527a"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/korti11/satisfactory-pathfinder/releases/download/v#{version}/pathfinder-linux-x86_64.tar.gz"
-      sha256 "4e8e43dd85a0c398a838bab31665e720aa59479f44ade6501e5e68f321161e5d"
+      sha256 "de6c5ed4854682703287f831fad62832e5b03430c1fc9a15103d11e87a9680bd"
     end
   end
 
