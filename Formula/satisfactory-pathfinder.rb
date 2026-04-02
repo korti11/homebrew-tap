@@ -7,18 +7,18 @@ class SatisfactoryPathfinder < Formula
   on_macos do
     on_arm do
       url "https://github.com/korti11/satisfactory-pathfinder/releases/download/v#{version}/pathfinder-macos-arm64.tar.gz"
-      sha256 "edbaf4e819ed94671c44b67cd603d3baad81d225305f07e84422aa914f86ba72"
+      sha256 "824abb5a1c77da60c9142505818f190e4c755f91fa1c8df14dbc85e33ed6234b"
     end
     on_intel do
       url "https://github.com/korti11/satisfactory-pathfinder/releases/download/v#{version}/pathfinder-macos-x86_64.tar.gz"
-      sha256 "755c3d86af687cbd5f489c37c9fbce62df07385d2912034b65292ef0137b527a"
+      sha256 "f066b79bc5bce6ed8227548f078fbeb8ff55ee7d4f1be8dd08675c6c16b338f5"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/korti11/satisfactory-pathfinder/releases/download/v#{version}/pathfinder-linux-x86_64.tar.gz"
-      sha256 "de6c5ed4854682703287f831fad62832e5b03430c1fc9a15103d11e87a9680bd"
+      sha256 "c1b229eb1aa274d566c1578acc3006f67752df1dbd7a0260b2758017e8c8ec4a"
     end
   end
 
